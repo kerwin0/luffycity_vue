@@ -1,6 +1,9 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <router-link to="/">吐槽</router-link>
+    <router-link to="/course">课程</router-link>
+    <router-link to="/news">so-tired</router-link>
+    <router-link to="/login">登陆</router-link>
     <router-view/>
   </div>
 </template>
@@ -12,12 +15,5 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
